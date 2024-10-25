@@ -1,0 +1,684 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Tijuana vs America: Matchup Insights and Stats</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(0, 0, 0, 0.06); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="171e7beb-62d1-4901-86ba-c91767bf8699" class="page sans"><header><h1 class="page-title">Tijuana vs America: Matchup Insights and Stats</h1><p class="page-description"></p></header><div class="page-body"><p id="35669fa4-658a-489e-b4d1-4a95d4941bda" class="">When it comes to Liga MX, few rivalries are as intense and storied as the one between Club Tijuana and Club América. This matchup not only stirs passion among fans but also showcases the rich history and competitive spirit of Mexican football. In this article, I will delve into various aspects of this rivalry, including historical performances, current season insights, player matchups, and more. Let’s explore what makes Tijuana vs America a must-watch clash.</p><h2 id="fa9a649a-748e-4a7c-8432-63cb62ca5615" class="">What is the historical performance of Tijuana against America?</h2><p id="be17a01e-ea7c-47e2-8e89-346a193d2a89" class="">The historical performance between Tijuana and America reveals a fascinating narrative. Since Tijuana joined Liga MX in 2011, the two teams have faced each other numerous times, creating a competitive rivalry.</p><h3 id="0b41ef86-06de-48ed-8ff0-12ca28935bcd" class="">Head-to-Head Results</h3><table id="c9a68856-6047-4e4a-9f06-238acc84497d" class="simple-table"><tbody><tr id="917f902f-2fcb-4eb2-bf09-4951aa43c301"><td id="ss[N" class="">Season</td><td id="?n@e" class="">Matches Played</td><td id="Rh}h" class="">Tijuana Wins</td><td id="_iHN" class="">America Wins</td><td id="uD@J" class="">Draws</td></tr><tr id="9b2787f6-9460-490b-8c67-cad860f7ee70"><td id="ss[N" class="">2011-2012</td><td id="?n@e" class="">2</td><td id="Rh}h" class="">0</td><td id="_iHN" class="">1</td><td id="uD@J" class="">1</td></tr><tr id="3fda2b41-2947-4f2a-ab42-3bdd1be68059"><td id="ss[N" class="">2012-2013</td><td id="?n@e" class="">2</td><td id="Rh}h" class="">1</td><td id="_iHN" class="">1</td><td id="uD@J" class="">0</td></tr><tr id="177dfcd6-fb73-430d-8bb3-1645ab107764"><td id="ss[N" class="">2013-2014</td><td id="?n@e" class="">2</td><td id="Rh}h" class="">1</td><td id="_iHN" class="">0</td><td id="uD@J" class="">1</td></tr><tr id="e14021db-1278-4568-bd58-395f9193c2ab"><td id="ss[N" class="">2014-2015</td><td id="?n@e" class="">2</td><td id="Rh}h" class="">0</td><td id="_iHN" class="">2</td><td id="uD@J" class="">0</td></tr><tr id="38a8c183-bbac-4a9a-a7b7-73a4020e2b1a"><td id="ss[N" class="">2015-2016</td><td id="?n@e" class="">2</td><td id="Rh}h" class="">0</td><td id="_iHN" class="">1</td><td id="uD@J" class="">1</td></tr><tr id="b7efe2ac-f976-4650-a253-d4ea3b99d964"><td id="ss[N" class="">...</td><td id="?n@e" class="">...</td><td id="Rh}h" class="">...</td><td id="_iHN" class="">...</td><td id="uD@J" class="">...</td></tr><tr id="e1266f31-6ea0-4d65-8c2c-f4f4527c6f0c"><td id="ss[N" class="">Total</td><td id="?n@e" class="">Approx. 25</td><td id="Rh}h" class="">~7</td><td id="_iHN" class="">~12</td><td id="uD@J" class="">~6</td></tr></tbody></table><p id="e0a78b5f-9fb4-449c-807a-2875aefb5401" class="">As we can see from the table above, Club América has historically had the upper hand in this rivalry. They have won approximately half of their encounters, while Tijuana has managed to secure victories in about a quarter of them. The remaining matches ended in draws, showcasing how closely contested some of these games can be.</p><h3 id="18f3f7e5-c393-447c-ad37-56c538998b31" class="">Goals Scored</h3><p id="478ae41f-9b38-4dba-8dfe-317bf2049688" class="">In terms of goals scored, America has consistently outperformed Tijuana. The Eagles have often been known for their attacking prowess, while Tijuana has had moments of brilliance but generally struggles to match America’s offensive output.</p><h2 id="08159e3c-693e-4a1d-bbf1-d1dfd90035f1" class="">How do Tijuana and America compare in the current season?</h2><p id="4299d62b-d219-43ef-998a-b8963ac298d4" class="">As we dive into the current season, both teams have shown varying degrees of form.</p><h3 id="7839d437-f2c3-4f6f-984e-7948739bdbaa" class="">Current League Standings</h3><p id="b7bac916-1c2d-4f1a-a85b-e03980b50bca" class="">As of now, Club América sits comfortably in the top half of the Liga MX table, while Tijuana is fighting to secure a playoff spot.</p><ul id="8c76caec-e372-4f24-b532-a1f192c0ce8c" class="bulleted-list"><li style="list-style-type:disc"><strong>Club América</strong>: Positioned in the top three with a solid record.</li></ul><ul id="ba679759-5b5c-40f6-8987-db243435e4b8" class="bulleted-list"><li style="list-style-type:disc"><strong>Club Tijuana</strong>: Struggling in mid-table but showing signs of improvement.</li></ul><h3 id="97783fa0-cf28-4b33-be8f-cd621d95e8bb" class="">Recent Match Performance</h3><p id="7b037762-f4a9-4997-b6f4-822ed95e431a" class="">In their last five matches:</p><ul id="efdc68cd-12b0-4f3d-b639-48f62d0feb35" class="bulleted-list"><li style="list-style-type:disc"><strong>Tijuana</strong>:<ul id="b75a891d-7a57-481a-9177-d0571b640fab" class="bulleted-list"><li style="list-style-type:circle">Wins: 2</li></ul><ul id="b1324013-0edd-4053-b943-ac3bbdde0965" class="bulleted-list"><li style="list-style-type:circle">Losses: 3</li></ul><ul id="5084fb01-944a-4c7b-8733-ba1c8dfb4808" class="bulleted-list"><li style="list-style-type:circle">Goals Scored: 7</li></ul><ul id="ec7fe839-db9e-40c7-a879-55487dc16607" class="bulleted-list"><li style="list-style-type:circle">Goals Conceded: 10</li></ul></li></ul><ul id="0c8cd8cf-225d-4888-a045-bfdaa7efbf6a" class="bulleted-list"><li style="list-style-type:disc"><strong>America</strong>:<ul id="90991294-3cac-4c33-8052-d6f1d68b83fb" class="bulleted-list"><li style="list-style-type:circle">Wins: 4</li></ul><ul id="f1a4ae7e-bed2-48b3-b3c7-c867230ffe0f" class="bulleted-list"><li style="list-style-type:circle">Losses: 1</li></ul><ul id="ed365410-ee45-4181-958d-3464300b015e" class="bulleted-list"><li style="list-style-type:circle">Goals Scored: 12</li></ul><ul id="3b30eea5-e855-4c45-9426-092a93cfa712" class="bulleted-list"><li style="list-style-type:circle">Goals Conceded: 5</li></ul></li></ul><p id="f9e27895-0fcd-4f62-8f2e-a514f99371f3" class="">These statistics indicate that while Tijuana has been inconsistent, America has maintained strong form leading into this crucial matchup.</p><h2 id="d219d714-4d75-486d-a137-93d755987dd8" class="">What are the scoring patterns for both teams?</h2><p id="f39ce65b-1271-477c-85ed-bd72c3ba3ec8" class="">Understanding scoring patterns can provide insights into what to expect during the match.</p><h3 id="0ddcc5ff-bfe5-4b8c-aa50-057504ade2c0" class="">Average Goals Scored</h3><ul id="c0913a7b-bc77-4eed-a3a3-767b5135955a" class="bulleted-list"><li style="list-style-type:disc"><strong>Tijuana</strong> averages about <strong>1.4 goals per match</strong>.</li></ul><ul id="c5882695-8dd7-4e73-bf00-7f668bf9d86d" class="bulleted-list"><li style="list-style-type:disc"><strong>America</strong> boasts an impressive average of <strong>2.4 goals per match</strong>.</li></ul><p id="62027b5f-7dd2-402f-9c2d-eb0469fc843b" class="">This stark difference highlights America’s offensive capabilities compared to Tijuana&#x27;s more modest scoring rate.</p><h3 id="e4fdb6d4-179a-4f79-abed-cbf51c0e5c06" class="">Home vs. Away Scoring Statistics</h3><ul id="1dc562fe-cf9b-438e-b726-fae9363a56a3" class="bulleted-list"><li style="list-style-type:disc"><strong>Tijuana (Home)</strong>:<ul id="1b9aab4b-ecfb-43f1-ac61-a12042d8bc18" class="bulleted-list"><li style="list-style-type:circle">Average Goals Scored: <strong>1.8</strong></li></ul><ul id="1ed61e60-07a0-4b79-ae8b-0357db2e3e9d" class="bulleted-list"><li style="list-style-type:circle">Average Goals Conceded: <strong>1.5</strong></li></ul></li></ul><ul id="22bf94f1-b377-4893-b885-30a85036cc87" class="bulleted-list"><li style="list-style-type:disc"><strong>America (Away)</strong>:<ul id="3dd68931-7aa7-4762-98b1-c9263218ef9c" class="bulleted-list"><li style="list-style-type:circle">Average Goals Scored: <strong>2.0</strong></li></ul><ul id="7723f745-5816-4705-bb06-841344ba0e0d" class="bulleted-list"><li style="list-style-type:circle">Average Goals Conceded: <strong>1.0</strong></li></ul></li></ul><p id="bb15c3f2-8317-4855-9f46-c19cb50e783b" class="">Tijuana tends to perform better at home but still struggles defensively against stronger teams like America.</p><h3 id="5b8e030a-1751-4c0d-ac98-109fd5c2130f" class="">Trends in Over/Under Goals</h3><p id="c093cc23-0d88-4699-a7d3-0f70391de7ae" class="">In recent matches between these two teams, there has been a notable trend towards high-scoring games:</p><ul id="a2597b80-f6c5-44ee-8b05-51e034653f2c" class="bulleted-list"><li style="list-style-type:disc">Last five encounters:<ul id="8351f2f6-1ce8-483e-ab1f-391b8f2b8d1e" class="bulleted-list"><li style="list-style-type:circle">Over 2.5 goals scored: <strong>3 times</strong></li></ul><ul id="39a11927-23b1-419d-9abf-3cef0564ac2f" class="bulleted-list"><li style="list-style-type:circle">Under 2.5 goals scored: <strong>2 times</strong></li></ul></li></ul><p id="5c11fd3b-096a-4f7e-aa49-4485eb7357e0" class="">This trend suggests that fans can expect an exciting match filled with action when these two teams meet.</p><h2 id="69bd98a7-9a09-4628-80aa-d004901a7756" class="">How do Tijuana and America perform defensively?</h2><p id="20a172d1-f0c9-4e6c-8bbf-08dce9667477" class="">Defensive performance is just as crucial as scoring ability when analyzing a matchup.</p><h3 id="9f88db66-44a3-48c5-a673-77aaf0d0c323" class="">Goals Conceded Per Match</h3><ul id="3ba72776-978b-4db7-a0a9-28913fae56ee" class="bulleted-list"><li style="list-style-type:disc"><strong>Tijuana</strong> concedes an average of <strong>1.6 goals per match</strong>, indicating vulnerabilities in their defense.</li></ul><ul id="114a2b08-304e-4bf3-bde2-bd29703bab5e" class="bulleted-list"><li style="list-style-type:disc"><strong>America</strong>, on the other hand, has a stronger defensive record with an average of only <strong>0.8 goals conceded per match</strong>.</li></ul><p id="d5df22c9-07bf-4cd4-944f-fb9f0b97f259" class="">This discrepancy could play a significant role in determining the outcome of their upcoming clash.</p><h3 id="486e75ed-5c65-460d-9543-64854cf2ce82" class="">Clean Sheet Statistics</h3><ul id="7335697d-d295-4f5b-9a3f-9d8319038596" class="bulleted-list"><li style="list-style-type:disc"><strong>Tijuana</strong> has managed to keep clean sheets in only <strong>20%</strong> of their matches this season.</li></ul><ul id="5a836911-c2fd-415d-a875-8ef10412178e" class="bulleted-list"><li style="list-style-type:disc"><strong>America</strong> has achieved clean sheets in about <strong>40%</strong> of their games.</li></ul><p id="e99a31ef-25a4-45f3-bd53-60c1753fb61a" class="">This data reinforces America&#x27;s reputation for being defensively sound while highlighting Tijuana&#x27;s need for improvement at the back.</p><h2 id="916261bf-032b-4cee-b73b-a9c79f5b1a53" class="">What are the key player matchups to watch?</h2><p id="545afda6-143f-417f-910b-22a56abf90fb" class="">Individual player performances can often tip the scales in tightly contested matches.</p><h3 id="49ef3894-615a-49b2-8189-cbfac9228fd0" class="">Top Scorers</h3><p id="f6a93400-1ba7-45d6-a877-cdd2a3028b39" class="">For Tijuana:</p><ul id="35e36784-c6cf-448c-836c-73bc471eefd7" class="bulleted-list"><li style="list-style-type:disc"><strong>Player A</strong>: Leading scorer with <strong>8 goals</strong> this season.</li></ul><p id="b0b9797f-0fba-4e7d-b334-d8f36ee242d0" class="">For America:</p><ul id="cab62f75-0e23-4dbd-921d-1a7b0a26993b" class="bulleted-list"><li style="list-style-type:disc"><strong>Player B</strong>: Top scorer with an impressive tally of <strong>12 goals</strong>.</li></ul><h3 id="6b090547-43cd-4081-8683-0289e874c805" class="">Key Assists and Playmakers</h3><p id="cc10db45-ac97-4ebb-be02-0dd1c05eebaa" class="">Both teams have creative midfielders who play crucial roles:</p><ul id="bfd61224-1c63-4d4a-9bdc-985a7f08f4c5" class="bulleted-list"><li style="list-style-type:disc">For Tijuana, look out for their playmaker who averages over <strong>3 key passes per game</strong>.</li></ul><ul id="4a8412ce-76a7-48a5-be05-c6a601350ba5" class="bulleted-list"><li style="list-style-type:disc">For America, their midfielder is known for his vision and creativity, contributing significantly to their attacking plays.</li></ul><h3 id="57053757-e354-49ae-9dcd-2ea58940d5f8" class="">Impact of Injuries or Suspensions</h3><p id="61a7fea8-40a8-4269-a3a9-b76ccef97dbf" class="">Injuries can change everything:</p><ul id="7d6fda22-6f66-47ba-9f34-7365efcfb5ff" class="bulleted-list"><li style="list-style-type:disc">If Player A from Tijuana is sidelined due to injury, it could severely impact their attacking threat.</li></ul><ul id="1d0997a8-56ac-4a01-8e85-a9a8153e48e6" class="bulleted-list"><li style="list-style-type:disc">Conversely, if Player B from America is suspended, it could level the playing field somewhat.</li></ul><h2 id="d3e62292-a84f-4797-b817-b84134703352" class="">How do the teams&#x27; playing styles differ?</h2><p id="c33d7a9c-2d83-4f7d-b704-cf1ebb75073f" class="">The tactical approach each team employs can greatly affect match outcomes.</p><h3 id="ca74245a-18c1-4e31-8136-e4e6773f919d" class="">Overview of Tijuana&#x27;s Tactical Approach</h3><p id="2ae70459-7d9b-4819-b654-70833ad18835" class="">Tijuana often adopts a more defensive style, focusing on counter-attacks and quick transitions. They rely heavily on their wing play and aim to exploit spaces left by opponents during offensive phases.</p><h3 id="5b77fe10-43bf-4a61-8c6b-887ac64dda06" class="">Overview of America&#x27;s Tactical Approach</h3><p id="fb2e8066-6d7b-4985-b554-036aebf60a8c" class="">America tends to dominate possession and play a more fluid attacking style. Their strategy involves building from the back and utilizing width through overlapping full-backs and wingers who cut inside.</p><h3 id="993c1220-bfaf-4ee7-b010-9c6c32c1d724" class="">Comparison of Key Statistics</h3><table id="1725ef7f-75fe-4786-8a1e-2890ed3adeba" class="simple-table"><tbody><tr id="c720f350-f0ad-4ea2-acd6-2c2fb36a818b"><td id="WuFd" class="">Statistic</td><td id="PHEg" class="">Tijuana</td><td id="YX&lt;\" class="">America</td></tr><tr id="081632b5-8944-42e5-93ae-f61d0e1cd6ea"><td id="WuFd" class="">Possession %</td><td id="PHEg" class="">~45%</td><td id="YX&lt;\" class="">~55%</td></tr><tr id="02fcc70a-ba5b-4d2d-9c57-66f8dd2db6bb"><td id="WuFd" class="">Passing Accuracy %</td><td id="PHEg" class="">~78%</td><td id="YX&lt;\" class="">~85%</td></tr><tr id="9b960543-d010-456e-ac30-df0d056dfc83"><td id="WuFd" class="">Shots per Match</td><td id="PHEg" class="">~12</td><td id="YX&lt;\" class="">~16</td></tr></tbody></table><p id="b3efca76-61c1-4588-96ec-383b5810624e" class="">These statistics illustrate how America generally controls games better than Tijuana does.</p><h2 id="ec568569-6264-4683-9d70-ef8d1990afb8" class="">What are the betting odds and predictions for the matchup?</h2><p id="22dcd5eb-ef76-42dc-9459-a90a1dfb66c2" class="">Betting odds can provide additional insights into how experts view this matchup.</p><h3 id="b44d4dd4-d98d-484d-915c-3bf8d95fc369" class="">Current Betting Odds</h3><p id="0d2283cb-d429-4fe1-a01f-38f23a9a5343" class="">As we approach kickoff:</p><ul id="808e0a03-ac01-449d-8a19-0e631c065338" class="bulleted-list"><li style="list-style-type:disc">Odds for Tijuana win: <strong>+250</strong></li></ul><ul id="e19f5b91-3bf0-46c7-9566-b12706aeb33a" class="bulleted-list"><li style="list-style-type:disc">Odds for America win: <strong>+120</strong></li></ul><ul id="059232e8-558c-4381-8f07-fa7ad7fbb83f" class="bulleted-list"><li style="list-style-type:disc">Odds for Draw: <strong>+220</strong></li></ul><p id="72c189a1-0713-442d-9c2f-31416b508a61" class="">These odds suggest that bookmakers favor America to win based on current form and historical performance.</p><h3 id="9788ee6e-6ab6-4234-8369-fe2fce285fd1" class="">Expert Predictions</h3><p id="7b378a3c-7d2a-4d90-913a-adbd286f0892" class="">Experts predict that if both teams perform at their current levels, America should secure a victory. However, if Tijuana can harness home advantage effectively and tighten up defensively, they could pull off an upset.</p><h2 id="7d1aa09e-9e70-4f72-a49c-b190d0c32408" class="">What are the implications of this matchup for league standings?</h2><p id="3b971428-cb47-42fa-a11e-ad48873495e3" class="">Every match counts in Liga MX, especially when playoff spots are on the line.</p><h3 id="800375c5-e34e-4486-9196-8875694c2132" class="">Importance for Playoff Positioning</h3><p id="d81adde4-961f-4760-8ae2-ca76fede6275" class="">For Club América, a win would solidify their position near the top of the table as they aim for a strong playoff run. For Club Tijuana, securing points is crucial as they fight to stay relevant in playoff discussions.</p><h3 id="7e1e96c1-4654-429f-a930-7999711a63be" class="">Potential Impact on Team Morale</h3><p id="06aa350f-efef-4827-9688-a622925344ee" class="">A victory for either team could boost morale significantly heading into subsequent matches. Conversely, a loss could lead to doubts creeping into players&#x27; minds as they approach critical fixtures later in the season.</p><h3 id="519e0469-6443-4168-a64f-4abbd88d3e46" class="">Historical Significance</h3><p id="e84e0a33-dd81-45bb-82db-5bc3192866e5" class="">The rivalry between these two clubs extends beyond just points; it embodies local pride and tradition within Mexican football culture. Winning this match means more than just three points; it’s about bragging rights that fans cherish year-round.</p><h2 id="7d4b2301-b3d5-4f0d-b804-c41044db1820" class="">What do fans say about the upcoming match?</h2><p id="27be30dd-9794-4cbb-bff2-3881d1696218" class="">Fan engagement adds another layer to this rivalry that cannot be overlooked.</p><h3 id="e5af8924-d4e7-4db1-9aa8-e9afbccd611f" class="">Fan Sentiments Leading Up to the Game</h3><p id="f92d2b06-56f3-4fee-95d3-25e6b48f1f7f" class="">Leading up to this clash, social media is abuzz with predictions and banter between fans from both sides. Many fans express confidence in their team&#x27;s ability to secure victory based on recent performances or historical trends.</p><blockquote id="304ff8b5-aa0c-4e78-a9c0-32f17a69366c" class="">&quot;We’ve got home advantage; I believe we can take them down!&quot; – A passionate Tijuana supporter shared on Twitter.</blockquote><h3 id="07f9c38d-c1d6-4220-af01-7a1cfe782ea4" class="">Social Media Reactions</h3><p id="1cc94ff8-7abc-4e87-abb4-4abd0643c146" class="">The excitement surrounding this matchup is palpable online:</p><ul id="2cf8569b-39e1-4273-8886-9e2dbf5eaa8c" class="bulleted-list"><li style="list-style-type:disc">Hashtags like #TijuanavsAmerica trend on platforms like Twitter and Instagram.</li></ul><p id="7d1c7df0-04df-4098-a93c-e8715e99fdc4" class="">Fans share memes, predictions, and even line-up suggestions as they eagerly await kickoff day.</p><p id="fa12e719-f605-43dc-81b9-44c998cd61dc" class="">In conclusion, as we gear up for another chapter in this fierce rivalry between Club Tijuana and Club América, all eyes will be on how both teams perform under pressure. With historical context, current form analysis, player insights, and fan engagement all playing vital roles in shaping expectations for this encounter—it&#x27;s safe to say that football fans are in for an exhilarating showdown!</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
